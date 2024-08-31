@@ -34,7 +34,7 @@ public class MainApplication {
         Client client = new Client(name, email, date2);
 
         System.out.println("Enter order data");
-        System.out.print("Status: ");
+        System.out.println("Enter Progress Status:(PENDING_PAYMENT,PROCESSING,SHIPPED,DELIVERED).");
         status = scanner.nextLine();
 
         LocalDateTime date = LocalDateTime.now();

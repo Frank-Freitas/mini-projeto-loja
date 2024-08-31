@@ -49,10 +49,10 @@ public class Order {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("ORDER SUMMARY\n");
+        sb.append("\nORDER SUMMARY\n");
         sb.append("Order moment: ").append(moment.format(formato2)).append("\n");
         sb.append("Order Status: ").append(status).append("\n");
-        sb.append("Order Items:\n");
+        sb.append("\nOrder Items:\n");
         for (OrderItem item : items) {
             sb.append(item.toString());
         }
